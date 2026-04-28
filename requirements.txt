@@ -1,0 +1,24 @@
+# Core ML
+torch>=2.0
+numpy>=1.24
+scipy>=1.11
+scikit-learn>=1.3
+lightgbm>=4.0
+
+# Materials science
+pymatgen>=2024.1
+mp-api>=0.40
+
+# Data / I/O
+pandas>=2.0
+requests>=2.31
+python-dotenv>=1.0
+
+# Plotting and analysis
+matplotlib>=3.7
+
+# Document/figure builders (used by applications/build_*.py)
+python-docx>=1.0
+reportlab>=4.0
+pypandoc>=1.13           # bundled with pypandoc-binary
+pypdf>=4.0

@@ -1,0 +1,26 @@
+{
+  "Full v2 (Kubic + cross-shell)": {
+    "mae_mean": 1.2905165076255798,
+    "mae_std": 0.0,
+    "r2_mean": 0.48950177789787475,
+    "wall_s": 2018.5605890750885
+  },
+  "Kubic + shell-restricted": {
+    "mae_mean": 1.5383361101150512,
+    "mae_std": 0.0,
+    "r2_mean": 0.37286298034341475,
+    "wall_s": 1171.0115764141083
+  },
+  "Radial + cross-shell": {
+    "mae_mean": 1.4226398706436156,
+    "mae_std": 0.0,
+    "r2_mean": 0.4649645548395978,
+    "wall_s": 2405.9179928302765
+  },
+  "v1 baseline (Radial + shell-restr.)": {
+    "mae_mean": 1.6397960901260376,
+    "mae_std": 0.0,
+    "r2_mean": 0.35754041401291203,
+    "wall_s": 1106.904990196228
+  }
+}

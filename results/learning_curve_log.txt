@@ -1,0 +1,537 @@
+2026-04-27 13:56:04,782  INFO  Running k-SEC + DBVF at fraction 0.4 (3 seeds)...
+2026-04-27 13:56:06,270  INFO  device=cuda  epochs=60  seeds=3  hetero=False  magpie=True  lattice=True
+2026-04-27 13:56:06,275  INFO  Eligible: 281  (log_sigma>-15.0 filter dropped 4, geometric-valid filter dropped 0)
+2026-04-27 13:56:06,373  INFO  loaded MP encoder (67 tensors: embed+blocks)  val_score=0.465  missing=33 unexpected=0
+2026-04-27 13:56:10,754  INFO  s0-f0 ep 00  val_mae=2.056  best=2.056
+2026-04-27 13:56:41,746  INFO  s0-f0 ep 10  val_mae=1.095  best=1.044
+2026-04-27 13:57:19,021  INFO  s0-f0 ep 20  val_mae=1.048  best=0.882
+2026-04-27 13:57:48,698  INFO  s0-f0 ep 30  val_mae=1.003  best=0.882
+2026-04-27 13:58:18,370  INFO  s0-f0 ep 40  val_mae=1.028  best=0.882
+2026-04-27 13:58:45,213  INFO  s0-f0 ep 50  val_mae=1.047  best=0.882
+2026-04-27 13:59:10,352  INFO  s0-f0 ep 59  val_mae=1.041  best=0.882
+2026-04-27 13:59:13,615  INFO  s0-f0  MAE=1.347  R©÷=0.364  AUC=0.789
+2026-04-27 13:59:16,010  INFO  s0-f1 ep 00  val_mae=1.793  best=1.793
+2026-04-27 13:59:44,926  INFO  s0-f1 ep 10  val_mae=1.156  best=1.127
+2026-04-27 14:00:11,196  INFO  s0-f1 ep 20  val_mae=1.100  best=1.100
+2026-04-27 14:00:24,418  INFO  s0-f1 ep 30  val_mae=1.274  best=1.073
+2026-04-27 14:00:37,459  INFO  s0-f1 ep 40  val_mae=1.168  best=1.073
+2026-04-27 14:00:50,510  INFO  s0-f1 ep 50  val_mae=1.221  best=1.073
+2026-04-27 14:01:02,535  INFO  s0-f1 ep 59  val_mae=1.206  best=1.073
+2026-04-27 14:01:05,787  INFO  s0-f1  MAE=1.596  R©÷=0.316  AUC=0.829
+2026-04-27 14:01:08,586  INFO  s0-f2 ep 00  val_mae=1.918  best=1.918
+2026-04-27 14:01:29,002  INFO  s0-f2 ep 10  val_mae=1.462  best=1.462
+2026-04-27 14:01:48,868  INFO  s0-f2 ep 20  val_mae=1.492  best=1.432
+2026-04-27 14:02:09,250  INFO  s0-f2 ep 30  val_mae=1.545  best=1.432
+2026-04-27 14:02:29,704  INFO  s0-f2 ep 40  val_mae=1.635  best=1.432
+2026-04-27 14:02:49,256  INFO  s0-f2 ep 50  val_mae=1.555  best=1.432
+2026-04-27 14:03:08,846  INFO  s0-f2 ep 59  val_mae=1.569  best=1.432
+2026-04-27 14:03:12,316  INFO  s0-f2  MAE=1.560  R©÷=0.200  AUC=0.778
+2026-04-27 14:03:15,009  INFO  s0-f3 ep 00  val_mae=2.462  best=2.462
+2026-04-27 14:03:41,241  INFO  s0-f3 ep 10  val_mae=1.989  best=1.669
+2026-04-27 14:04:07,410  INFO  s0-f3 ep 20  val_mae=1.819  best=1.600
+2026-04-27 14:04:33,736  INFO  s0-f3 ep 30  val_mae=1.684  best=1.600
+2026-04-27 14:05:00,200  INFO  s0-f3 ep 40  val_mae=1.720  best=1.600
+2026-04-27 14:06:01,083  INFO  s0-f3 ep 50  val_mae=1.762  best=1.600
+2026-04-27 14:06:42,290  INFO  s0-f3 ep 59  val_mae=1.772  best=1.600
+2026-04-27 14:06:45,556  INFO  s0-f3  MAE=1.527  R©÷=0.382  AUC=0.821
+2026-04-27 14:06:49,489  INFO  s0-f4 ep 00  val_mae=1.471  best=1.471
+2026-04-27 14:07:15,260  INFO  s0-f4 ep 10  val_mae=1.245  best=1.123
+2026-04-27 14:07:41,083  INFO  s0-f4 ep 20  val_mae=1.332  best=1.123
+2026-04-27 14:08:09,448  INFO  s0-f4 ep 30  val_mae=1.215  best=1.123
+2026-04-27 14:08:36,386  INFO  s0-f4 ep 40  val_mae=1.239  best=1.123
+2026-04-27 14:09:32,501  INFO  s0-f4 ep 50  val_mae=1.346  best=1.123
+2026-04-27 14:11:46,940  INFO  s0-f4 ep 59  val_mae=1.327  best=1.123
+2026-04-27 14:11:50,281  INFO  s0-f4  MAE=1.271  R©÷=0.322  AUC=0.867
+2026-04-27 14:11:50,382  INFO  ==== seed 0  MAE=1.460¡¾0.128  R©÷=0.317  AUC=0.817 ====
+2026-04-27 14:11:53,679  INFO  s1-f0 ep 00  val_mae=1.642  best=1.642
+2026-04-27 14:12:27,273  INFO  s1-f0 ep 10  val_mae=1.254  best=0.959
+2026-04-27 14:13:02,013  INFO  s1-f0 ep 20  val_mae=1.159  best=0.917
+2026-04-27 14:13:34,577  INFO  s1-f0 ep 30  val_mae=1.002  best=0.917
+2026-04-27 14:14:00,135  INFO  s1-f0 ep 40  val_mae=1.050  best=0.917
+2026-04-27 14:14:13,385  INFO  s1-f0 ep 50  val_mae=1.004  best=0.917
+2026-04-27 14:14:25,410  INFO  s1-f0 ep 59  val_mae=1.020  best=0.917
+2026-04-27 14:14:28,651  INFO  s1-f0  MAE=1.408  R©÷=0.292  AUC=0.815
+2026-04-27 14:14:31,027  INFO  s1-f1 ep 00  val_mae=2.326  best=2.326
+2026-04-27 14:14:49,460  INFO  s1-f1 ep 10  val_mae=2.321  best=1.970
+2026-04-27 14:15:07,382  INFO  s1-f1 ep 20  val_mae=2.383  best=1.970
+2026-04-27 14:15:25,414  INFO  s1-f1 ep 30  val_mae=2.194  best=1.970
+2026-04-27 14:15:41,542  INFO  s1-f1 ep 40  val_mae=2.199  best=1.970
+2026-04-27 14:15:58,363  INFO  s1-f1 ep 50  val_mae=2.190  best=1.970
+2026-04-27 14:16:16,079  INFO  s1-f1 ep 59  val_mae=2.181  best=1.970
+2026-04-27 14:16:20,125  INFO  s1-f1  MAE=1.750  R©÷=-0.015  AUC=0.647
+2026-04-27 14:16:23,799  INFO  s1-f2 ep 00  val_mae=2.133  best=2.133
+2026-04-27 14:16:53,988  INFO  s1-f2 ep 10  val_mae=1.726  best=1.365
+2026-04-27 14:17:24,082  INFO  s1-f2 ep 20  val_mae=1.471  best=1.311
+2026-04-27 14:17:53,840  INFO  s1-f2 ep 30  val_mae=1.452  best=1.311
+2026-04-27 14:18:29,202  INFO  s1-f2 ep 40  val_mae=1.297  best=1.290
+2026-04-27 14:20:43,878  INFO  s1-f2 ep 50  val_mae=1.335  best=1.290
+2026-04-27 14:22:44,334  INFO  s1-f2 ep 59  val_mae=1.351  best=1.290
+2026-04-27 14:22:47,403  INFO  s1-f2  MAE=1.469  R©÷=0.293  AUC=0.853
+2026-04-27 14:22:49,532  INFO  s1-f3 ep 00  val_mae=1.693  best=1.693
+2026-04-27 14:23:06,234  INFO  s1-f3 ep 10  val_mae=1.753  best=1.442
+2026-04-27 14:23:30,054  INFO  s1-f3 ep 20  val_mae=1.532  best=1.442
+2026-04-27 14:23:44,730  INFO  s1-f3 ep 30  val_mae=1.400  best=1.400
+2026-04-27 14:23:59,111  INFO  s1-f3 ep 40  val_mae=1.443  best=1.329
+2026-04-27 14:24:13,258  INFO  s1-f3 ep 50  val_mae=1.401  best=1.329
+2026-04-27 14:24:25,912  INFO  s1-f3 ep 59  val_mae=1.381  best=1.329
+2026-04-27 14:24:26,905  INFO  s1-f3  MAE=1.236  R©÷=0.418  AUC=0.838
+2026-04-27 14:24:30,653  INFO  s1-f4 ep 00  val_mae=1.436  best=1.436
+2026-04-27 14:25:05,090  INFO  s1-f4 ep 10  val_mae=1.426  best=1.168
+2026-04-27 14:25:40,327  INFO  s1-f4 ep 20  val_mae=0.987  best=0.940
+2026-04-27 14:25:54,388  INFO  s1-f4 ep 30  val_mae=1.053  best=0.940
+2026-04-27 14:26:08,523  INFO  s1-f4 ep 40  val_mae=1.028  best=0.940
+2026-04-27 14:26:22,630  INFO  s1-f4 ep 50  val_mae=0.993  best=0.940
+2026-04-27 14:26:35,179  INFO  s1-f4 ep 59  val_mae=1.013  best=0.940
+2026-04-27 14:26:35,887  INFO  s1-f4  MAE=1.240  R©÷=0.454  AUC=0.910
+2026-04-27 14:26:36,326  INFO  ==== seed 1  MAE=1.420¡¾0.188  R©÷=0.288  AUC=0.813 ====
+2026-04-27 14:26:39,062  INFO  s2-f0 ep 00  val_mae=1.029  best=1.029
+2026-04-27 14:27:02,132  INFO  s2-f0 ep 10  val_mae=1.190  best=1.024
+2026-04-27 14:27:24,592  INFO  s2-f0 ep 20  val_mae=1.281  best=1.024
+2026-04-27 14:27:47,125  INFO  s2-f0 ep 30  val_mae=1.242  best=1.024
+2026-04-27 14:28:07,904  INFO  s2-f0 ep 40  val_mae=1.175  best=1.024
+2026-04-27 14:28:30,183  INFO  s2-f0 ep 50  val_mae=1.177  best=1.024
+2026-04-27 14:28:51,502  INFO  s2-f0 ep 59  val_mae=1.187  best=1.024
+2026-04-27 14:28:54,885  INFO  s2-f0  MAE=1.788  R©÷=0.062  AUC=0.728
+2026-04-27 14:28:58,071  INFO  s2-f1 ep 00  val_mae=1.691  best=1.691
+2026-04-27 14:29:25,210  INFO  s2-f1 ep 10  val_mae=1.430  best=1.373
+2026-04-27 14:29:52,139  INFO  s2-f1 ep 20  val_mae=1.586  best=1.327
+2026-04-27 14:30:10,804  INFO  s2-f1 ep 30  val_mae=1.541  best=1.327
+2026-04-27 14:30:24,520  INFO  s2-f1 ep 40  val_mae=1.518  best=1.327
+2026-04-27 14:30:38,253  INFO  s2-f1 ep 50  val_mae=1.519  best=1.327
+2026-04-27 14:30:50,451  INFO  s2-f1 ep 59  val_mae=1.524  best=1.327
+2026-04-27 14:30:54,697  INFO  s2-f1  MAE=1.525  R©÷=0.299  AUC=0.745
+2026-04-27 14:30:57,246  INFO  s2-f2 ep 00  val_mae=1.895  best=1.895
+2026-04-27 14:31:13,952  INFO  s2-f2 ep 10  val_mae=0.905  best=0.866
+2026-04-27 14:31:29,979  INFO  s2-f2 ep 20  val_mae=0.870  best=0.726
+2026-04-27 14:31:46,520  INFO  s2-f2 ep 30  val_mae=0.862  best=0.716
+2026-04-27 14:32:02,496  INFO  s2-f2 ep 40  val_mae=0.841  best=0.716
+2026-04-27 14:32:18,463  INFO  s2-f2 ep 50  val_mae=0.856  best=0.716
+2026-04-27 14:32:32,827  INFO  s2-f2 ep 59  val_mae=0.875  best=0.716
+2026-04-27 14:32:35,525  INFO  s2-f2  MAE=1.187  R©÷=0.518  AUC=0.880
+2026-04-27 14:32:38,358  INFO  s2-f3 ep 00  val_mae=1.261  best=1.261
+2026-04-27 14:32:59,940  INFO  s2-f3 ep 10  val_mae=1.490  best=1.261
+2026-04-27 14:33:21,112  INFO  s2-f3 ep 20  val_mae=1.449  best=1.261
+2026-04-27 14:33:43,431  INFO  s2-f3 ep 30  val_mae=1.441  best=1.261
+2026-04-27 14:34:00,296  INFO  s2-f3 ep 40  val_mae=1.330  best=1.261
+2026-04-27 14:34:17,983  INFO  s2-f3 ep 50  val_mae=1.325  best=1.261
+2026-04-27 14:34:31,823  INFO  s2-f3 ep 59  val_mae=1.351  best=1.261
+2026-04-27 14:34:35,602  INFO  s2-f3  MAE=1.761  R©÷=0.139  AUC=0.702
+2026-04-27 14:34:38,990  INFO  s2-f4 ep 00  val_mae=1.645  best=1.645
+2026-04-27 14:35:05,872  INFO  s2-f4 ep 10  val_mae=1.291  best=1.291
+2026-04-27 14:35:32,826  INFO  s2-f4 ep 20  val_mae=1.413  best=1.260
+2026-04-27 14:36:13,294  INFO  s2-f4 ep 30  val_mae=1.368  best=1.260
+2026-04-27 14:38:14,654  INFO  s2-f4 ep 40  val_mae=1.382  best=1.260
+2026-04-27 14:40:25,511  INFO  s2-f4 ep 50  val_mae=1.373  best=1.260
+2026-04-27 14:42:22,437  INFO  s2-f4 ep 59  val_mae=1.372  best=1.260
+2026-04-27 14:42:25,393  INFO  s2-f4  MAE=1.205  R©÷=0.444  AUC=0.913
+2026-04-27 14:42:25,490  INFO  ==== seed 2  MAE=1.493¡¾0.259  R©÷=0.292  AUC=0.794 ====
+C:\Users\sunwo\Desktop\battery\scripts\08_train_hybrid.py:458: RuntimeWarning: Mean of empty slice
+  ens_pred = np.nanmean(stacked, axis=0)
+2026-04-27 14:42:25,530  INFO  PER-SEED MAE=1.458¡¾0.030   ENSEMBLE MAE=1.307  R©÷=0.438  AUC=0.842
+2026-04-27 14:42:25,922  INFO  ksec frac=0.4 done in 46.4 min
+2026-04-27 14:42:25,928  INFO  Running LightGBM at fraction 0.4 (5 seeds)...
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\sunwo\Desktop\battery\scripts\29_learning_curve.py:157: RuntimeWarning: Mean of empty slice
+  ens = np.nanmean(pred, axis=0)
+2026-04-27 14:42:30,029  INFO  lgbm frac=0.4 n_train\u224890 ensemble MAE=1.008 per-seed=1.151¡¾0.069
+2026-04-27 14:42:30,030  INFO  Running k-SEC + DBVF at fraction 0.6 (3 seeds)...
+2026-04-27 14:42:31,530  INFO  device=cuda  epochs=60  seeds=3  hetero=False  magpie=True  lattice=True
+2026-04-27 14:42:31,534  INFO  Eligible: 281  (log_sigma>-15.0 filter dropped 4, geometric-valid filter dropped 0)
+2026-04-27 14:42:31,620  INFO  loaded MP encoder (67 tensors: embed+blocks)  val_score=0.465  missing=33 unexpected=0
+2026-04-27 14:42:36,326  INFO  s0-f0 ep 00  val_mae=1.882  best=1.882
+2026-04-27 14:43:05,402  INFO  s0-f0 ep 10  val_mae=1.362  best=1.330
+2026-04-27 14:43:29,649  INFO  s0-f0 ep 20  val_mae=1.316  best=1.316
+2026-04-27 14:43:54,370  INFO  s0-f0 ep 30  val_mae=1.364  best=1.271
+2026-04-27 14:44:18,877  INFO  s0-f0 ep 40  val_mae=1.299  best=1.240
+2026-04-27 14:44:43,138  INFO  s0-f0 ep 50  val_mae=1.330  best=1.240
+2026-04-27 14:45:04,412  INFO  s0-f0 ep 59  val_mae=1.314  best=1.240
+2026-04-27 14:45:11,348  INFO  s0-f0  MAE=1.244  R©÷=0.482  AUC=0.826
+2026-04-27 14:45:16,196  INFO  s0-f1 ep 00  val_mae=1.699  best=1.699
+2026-04-27 14:45:59,729  INFO  s0-f1 ep 10  val_mae=1.234  best=1.100
+2026-04-27 14:46:23,597  INFO  s0-f1 ep 20  val_mae=1.317  best=1.043
+2026-04-27 14:46:44,962  INFO  s0-f1 ep 30  val_mae=1.155  best=0.976
+2026-04-27 14:47:05,435  INFO  s0-f1 ep 40  val_mae=0.920  best=0.869
+2026-04-27 14:47:27,581  INFO  s0-f1 ep 50  val_mae=0.956  best=0.869
+2026-04-27 14:47:46,598  INFO  s0-f1 ep 59  val_mae=0.980  best=0.869
+2026-04-27 14:47:49,448  INFO  s0-f1  MAE=1.417  R©÷=0.406  AUC=0.912
+2026-04-27 14:47:52,332  INFO  s0-f2 ep 00  val_mae=1.743  best=1.743
+2026-04-27 14:48:23,141  INFO  s0-f2 ep 10  val_mae=1.522  best=1.430
+2026-04-27 14:48:53,365  INFO  s0-f2 ep 20  val_mae=1.574  best=1.336
+2026-04-27 14:49:24,282  INFO  s0-f2 ep 30  val_mae=1.521  best=1.336
+2026-04-27 14:49:58,516  INFO  s0-f2 ep 40  val_mae=1.547  best=1.336
+2026-04-27 14:50:27,182  INFO  s0-f2 ep 50  val_mae=1.500  best=1.336
+2026-04-27 14:50:53,718  INFO  s0-f2 ep 59  val_mae=1.499  best=1.336
+2026-04-27 14:50:58,442  INFO  s0-f2  MAE=1.497  R©÷=0.313  AUC=0.760
+2026-04-27 14:51:03,296  INFO  s0-f3 ep 00  val_mae=2.465  best=2.465
+2026-04-27 14:51:35,539  INFO  s0-f3 ep 10  val_mae=1.602  best=1.549
+2026-04-27 14:51:55,963  INFO  s0-f3 ep 20  val_mae=1.275  best=1.275
+2026-04-27 14:52:16,093  INFO  s0-f3 ep 30  val_mae=1.587  best=1.255
+2026-04-27 14:52:36,852  INFO  s0-f3 ep 40  val_mae=1.512  best=1.255
+2026-04-27 14:52:57,520  INFO  s0-f3 ep 50  val_mae=1.502  best=1.255
+2026-04-27 14:53:16,165  INFO  s0-f3 ep 59  val_mae=1.496  best=1.255
+2026-04-27 14:53:18,604  INFO  s0-f3  MAE=1.245  R©÷=0.455  AUC=0.933
+2026-04-27 14:53:23,781  INFO  s0-f4 ep 00  val_mae=1.508  best=1.508
+2026-04-27 14:54:01,077  INFO  s0-f4 ep 10  val_mae=1.574  best=1.237
+2026-04-27 14:54:20,962  INFO  s0-f4 ep 20  val_mae=1.489  best=1.237
+2026-04-27 14:54:40,638  INFO  s0-f4 ep 30  val_mae=1.320  best=1.237
+2026-04-27 14:55:00,335  INFO  s0-f4 ep 40  val_mae=1.419  best=1.237
+2026-04-27 14:55:20,837  INFO  s0-f4 ep 50  val_mae=1.477  best=1.237
+2026-04-27 14:55:39,408  INFO  s0-f4 ep 59  val_mae=1.444  best=1.237
+2026-04-27 14:55:40,287  INFO  s0-f4  MAE=1.242  R©÷=0.400  AUC=0.885
+2026-04-27 14:55:40,905  INFO  ==== seed 0  MAE=1.329¡¾0.108  R©÷=0.411  AUC=0.863 ====
+2026-04-27 14:55:43,741  INFO  s1-f0 ep 00  val_mae=1.687  best=1.687
+2026-04-27 14:56:08,659  INFO  s1-f0 ep 10  val_mae=1.178  best=0.968
+2026-04-27 14:59:42,683  INFO  s1-f0 ep 20  val_mae=1.135  best=0.799
+2026-04-27 15:02:36,978  INFO  s1-f0 ep 30  val_mae=0.894  best=0.759
+2026-04-27 15:03:02,831  INFO  s1-f0 ep 40  val_mae=1.021  best=0.759
+2026-04-27 15:03:28,158  INFO  s1-f0 ep 50  val_mae=0.986  best=0.759
+2026-04-27 15:03:50,987  INFO  s1-f0 ep 59  val_mae=0.999  best=0.759
+2026-04-27 15:03:54,980  INFO  s1-f0  MAE=1.096  R©÷=0.567  AUC=0.906
+2026-04-27 15:03:58,616  INFO  s1-f1 ep 00  val_mae=2.398  best=2.398
+2026-04-27 15:04:34,803  INFO  s1-f1 ep 10  val_mae=1.581  best=1.559
+2026-04-27 15:05:11,643  INFO  s1-f1 ep 20  val_mae=1.692  best=1.504
+2026-04-27 15:05:48,978  INFO  s1-f1 ep 30  val_mae=1.664  best=1.504
+2026-04-27 15:06:24,877  INFO  s1-f1 ep 40  val_mae=1.611  best=1.504
+2026-04-27 15:07:00,712  INFO  s1-f1 ep 50  val_mae=1.609  best=1.504
+2026-04-27 15:07:21,432  INFO  s1-f1 ep 59  val_mae=1.615  best=1.504
+2026-04-27 15:07:24,832  INFO  s1-f1  MAE=1.430  R©÷=0.284  AUC=0.743
+2026-04-27 15:07:28,839  INFO  s1-f2 ep 00  val_mae=1.862  best=1.862
+2026-04-27 15:08:04,657  INFO  s1-f2 ep 10  val_mae=1.453  best=0.966
+2026-04-27 15:08:31,559  INFO  s1-f2 ep 20  val_mae=1.196  best=0.936
+2026-04-27 15:08:50,516  INFO  s1-f2 ep 30  val_mae=1.320  best=0.936
+2026-04-27 15:09:09,669  INFO  s1-f2 ep 40  val_mae=1.215  best=0.936
+2026-04-27 15:09:28,790  INFO  s1-f2 ep 50  val_mae=1.209  best=0.936
+2026-04-27 15:09:45,566  INFO  s1-f2 ep 59  val_mae=1.235  best=0.936
+2026-04-27 15:09:46,802  INFO  s1-f2  MAE=1.543  R©÷=0.358  AUC=0.775
+2026-04-27 15:09:50,701  INFO  s1-f3 ep 00  val_mae=1.660  best=1.660
+2026-04-27 15:10:40,404  INFO  s1-f3 ep 10  val_mae=1.312  best=1.312
+Traceback (most recent call last):
+  File "C:\Users\sunwo\Desktop\battery\scripts\08_train_hybrid.py", line 500, in <module>
+    main()
+  File "C:\Users\sunwo\Desktop\battery\scripts\08_train_hybrid.py", line 350, in main
+    opt.zero_grad(); loss.backward()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\sunwo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2026-04-27 15:13:40,346  ERROR  k-SEC training failed at fraction 0.6: Command '['C:\\Users\\sunwo\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe', 'C:\\Users\\sunwo\\Desktop\\battery\\scripts\\08_train_hybrid.py', '--use-bv-field', '--use-lattice', '--use-geometric', '--seeds', '3', '--epochs', '60', '--train-fraction', '0.6', '--results', 'C:\\Users\\sunwo\\Desktop\\battery\\results\\learning_curve_ksec_f0.6.json', '--pretrained-encoder', 'results/mp_encoder_pretrained.pt']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "C:\Users\sunwo\Desktop\battery\scripts\29_learning_curve.py", line 279, in <module>
+    main()
+  File "C:\Users\sunwo\Desktop\battery\scripts\29_learning_curve.py", line 248, in main
+    run_ksec_at_fraction(frac)
+  File "C:\Users\sunwo\Desktop\battery\scripts\29_learning_curve.py", line 65, in run_ksec_at_fraction
+    subprocess.run(cmd, check=True, cwd=ROOT)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\sunwo\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe', 'C:\\Users\\sunwo\\Desktop\\battery\\scripts\\08_train_hybrid.py', '--use-bv-field', '--use-lattice', '--use-geometric', '--seeds', '3', '--epochs', '60', '--train-fraction', '0.6', '--results', 'C:\\Users\\sunwo\\Desktop\\battery\\results\\learning_curve_ksec_f0.6.json', '--pretrained-encoder', 'results/mp_encoder_pretrained.pt']' returned non-zero exit status 1.
+2026-04-27 15:15:43,944  INFO  ksec frac=0.4: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_ksec_f0.4.json
+2026-04-27 15:15:43,944  INFO  lgbm frac=0.4: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_lgbm_f0.4.json
+2026-04-27 15:15:43,944  INFO  Running k-SEC + DBVF at fraction 0.6 (3 seeds)...
+2026-04-27 15:15:45,572  INFO  device=cuda  epochs=60  seeds=3  hetero=False  magpie=True  lattice=True
+2026-04-27 15:15:45,577  INFO  Eligible: 281  (log_sigma>-15.0 filter dropped 4, geometric-valid filter dropped 0)
+2026-04-27 15:15:45,678  INFO  loaded MP encoder (67 tensors: embed+blocks)  val_score=0.465  missing=33 unexpected=0
+2026-04-27 15:15:50,906  INFO  s0-f0 ep 00  val_mae=1.716  best=1.716
+2026-04-27 15:16:25,240  INFO  s0-f0 ep 10  val_mae=1.243  best=1.243
+2026-04-27 15:16:57,201  INFO  s0-f0 ep 20  val_mae=1.311  best=1.135
+2026-04-27 15:17:32,616  INFO  s0-f0 ep 30  val_mae=1.450  best=1.125
+2026-04-27 15:18:06,589  INFO  s0-f0 ep 40  val_mae=1.362  best=1.125
+2026-04-27 15:18:40,064  INFO  s0-f0 ep 50  val_mae=1.305  best=1.125
+2026-04-27 15:19:10,528  INFO  s0-f0 ep 59  val_mae=1.316  best=1.125
+2026-04-27 15:19:25,232  INFO  s0-f0  MAE=1.232  R©÷=0.452  AUC=0.858
+2026-04-27 15:19:30,862  INFO  s0-f1 ep 00  val_mae=1.770  best=1.770
+2026-04-27 15:20:12,742  INFO  s0-f1 ep 10  val_mae=1.409  best=1.206
+2026-04-27 15:20:55,117  INFO  s0-f1 ep 20  val_mae=1.476  best=0.904
+2026-04-27 15:22:05,348  INFO  s0-f1 ep 30  val_mae=0.834  best=0.809
+2026-04-27 15:25:33,281  INFO  s0-f1 ep 40  val_mae=0.891  best=0.809
+2026-04-27 15:28:56,087  INFO  s0-f1 ep 50  val_mae=0.930  best=0.809
+2026-04-27 15:31:26,760  INFO  s0-f1 ep 59  val_mae=0.933  best=0.809
+2026-04-27 15:31:43,185  INFO  s0-f1  MAE=1.163  R©÷=0.498  AUC=0.881
+2026-04-27 15:31:48,165  INFO  s0-f2 ep 00  val_mae=1.713  best=1.713
+2026-04-27 15:32:22,832  INFO  s0-f2 ep 10  val_mae=1.486  best=1.486
+2026-04-27 15:32:58,524  INFO  s0-f2 ep 20  val_mae=1.252  best=1.252
+2026-04-27 15:33:33,130  INFO  s0-f2 ep 30  val_mae=1.301  best=1.245
+2026-04-27 15:34:06,378  INFO  s0-f2 ep 40  val_mae=1.331  best=1.165
+2026-04-27 15:38:00,683  INFO  s0-f2 ep 50  val_mae=1.296  best=1.165
+2026-04-27 15:42:38,400  INFO  s0-f2 ep 59  val_mae=1.317  best=1.165
+2026-04-27 15:42:53,713  INFO  s0-f2  MAE=1.403  R©÷=0.190  AUC=0.760
+2026-04-27 15:42:59,532  INFO  s0-f3 ep 00  val_mae=2.386  best=2.386
+2026-04-27 15:44:19,983  INFO  s0-f3 ep 10  val_mae=1.792  best=1.682
+2026-04-27 15:46:02,568  INFO  s0-f3 ep 20  val_mae=1.812  best=1.682
+2026-04-27 15:47:51,861  INFO  s0-f3 ep 30  val_mae=1.696  best=1.648
+2026-04-27 15:52:56,093  INFO  s0-f3 ep 40  val_mae=1.709  best=1.648
+2026-04-27 16:01:45,535  INFO  s0-f3 ep 50  val_mae=1.666  best=1.638
+2026-04-27 16:07:33,032  INFO  s0-f3 ep 59  val_mae=1.664  best=1.638
+2026-04-27 16:07:37,625  INFO  s0-f3  MAE=1.264  R©÷=0.508  AUC=0.906
+2026-04-27 16:07:41,233  INFO  s0-f4 ep 00  val_mae=1.477  best=1.477
+2026-04-27 16:08:08,916  INFO  s0-f4 ep 10  val_mae=1.500  best=1.301
+2026-04-27 16:08:35,833  INFO  s0-f4 ep 20  val_mae=1.637  best=1.301
+2026-04-27 16:09:01,061  INFO  s0-f4 ep 30  val_mae=1.671  best=1.301
+2026-04-27 16:09:26,869  INFO  s0-f4 ep 40  val_mae=1.701  best=1.301
+2026-04-27 16:09:51,437  INFO  s0-f4 ep 50  val_mae=1.640  best=1.301
+2026-04-27 16:12:08,048  INFO  s0-f4 ep 59  val_mae=1.652  best=1.301
+2026-04-27 16:12:13,074  INFO  s0-f4  MAE=1.104  R©÷=0.479  AUC=0.908
+2026-04-27 16:12:14,137  INFO  ==== seed 0  MAE=1.233¡¾0.101  R©÷=0.425  AUC=0.863 ====
+2026-04-27 16:12:17,046  INFO  s1-f0 ep 00  val_mae=1.518  best=1.518
+2026-04-27 16:12:46,252  INFO  s1-f0 ep 10  val_mae=1.106  best=1.095
+2026-04-27 16:13:16,867  INFO  s1-f0 ep 20  val_mae=1.191  best=0.799
+2026-04-27 16:13:44,285  INFO  s1-f0 ep 30  val_mae=1.021  best=0.799
+2026-04-27 16:14:11,435  INFO  s1-f0 ep 40  val_mae=0.895  best=0.799
+2026-04-27 16:14:39,641  INFO  s1-f0 ep 50  val_mae=0.922  best=0.799
+2026-04-27 16:15:04,021  INFO  s1-f0 ep 59  val_mae=0.900  best=0.799
+2026-04-27 16:15:09,768  INFO  s1-f0  MAE=1.085  R©÷=0.521  AUC=0.866
+2026-04-27 16:15:13,226  INFO  s1-f1 ep 00  val_mae=2.433  best=2.433
+2026-04-27 16:15:36,730  INFO  s1-f1 ep 10  val_mae=1.782  best=1.681
+2026-04-27 16:16:00,658  INFO  s1-f1 ep 20  val_mae=1.725  best=1.261
+2026-04-27 16:16:25,198  INFO  s1-f1 ep 30  val_mae=1.772  best=1.261
+2026-04-27 16:16:50,728  INFO  s1-f1 ep 40  val_mae=1.640  best=1.261
+2026-04-27 16:17:19,049  INFO  s1-f1 ep 50  val_mae=1.641  best=1.261
+2026-04-27 16:17:46,819  INFO  s1-f1 ep 59  val_mae=1.584  best=1.261
+2026-04-27 16:17:53,815  INFO  s1-f1  MAE=1.585  R©÷=0.123  AUC=0.740
+2026-04-27 16:17:58,266  INFO  s1-f2 ep 00  val_mae=1.832  best=1.832
+2026-04-27 16:18:44,629  INFO  s1-f2 ep 10  val_mae=1.113  best=0.939
+2026-04-27 16:19:19,408  INFO  s1-f2 ep 20  val_mae=0.960  best=0.868
+2026-04-27 16:19:52,374  INFO  s1-f2 ep 30  val_mae=1.046  best=0.830
+2026-04-27 16:20:25,624  INFO  s1-f2 ep 40  val_mae=1.017  best=0.830
+2026-04-27 16:20:59,462  INFO  s1-f2 ep 50  val_mae=0.939  best=0.830
+2026-04-27 16:21:30,499  INFO  s1-f2 ep 59  val_mae=0.973  best=0.830
+2026-04-27 16:21:35,624  INFO  s1-f2  MAE=1.339  R©÷=0.452  AUC=0.905
+2026-04-27 16:21:38,850  INFO  s1-f3 ep 00  val_mae=1.624  best=1.624
+2026-04-27 16:22:07,455  INFO  s1-f3 ep 10  val_mae=1.731  best=1.426
+2026-04-27 16:22:35,206  INFO  s1-f3 ep 20  val_mae=1.455  best=1.268
+2026-04-27 16:23:09,520  INFO  s1-f3 ep 30  val_mae=1.367  best=1.268
+2026-04-27 16:23:55,466  INFO  s1-f3 ep 40  val_mae=1.529  best=1.268
+2026-04-27 16:24:53,262  INFO  s1-f3 ep 50  val_mae=1.509  best=1.268
+2026-04-27 16:25:33,882  INFO  s1-f3 ep 59  val_mae=1.514  best=1.268
+2026-04-27 16:25:44,820  INFO  s1-f3  MAE=1.164  R©÷=0.524  AUC=0.862
+2026-04-27 16:25:48,483  INFO  s1-f4 ep 00  val_mae=1.772  best=1.772
+2026-04-27 16:26:14,731  INFO  s1-f4 ep 10  val_mae=1.328  best=1.122
+2026-04-27 16:26:41,464  INFO  s1-f4 ep 20  val_mae=1.073  best=0.998
+2026-04-27 16:27:12,191  INFO  s1-f4 ep 30  val_mae=1.245  best=0.858
+2026-04-27 16:27:43,068  INFO  s1-f4 ep 40  val_mae=0.914  best=0.858
+2026-04-27 16:28:14,636  INFO  s1-f4 ep 50  val_mae=0.936  best=0.858
+2026-04-27 16:28:42,981  INFO  s1-f4 ep 59  val_mae=0.943  best=0.858
+2026-04-27 16:28:48,511  INFO  s1-f4  MAE=1.328  R©÷=0.465  AUC=0.863
+2026-04-27 16:28:49,147  INFO  ==== seed 1  MAE=1.300¡¾0.172  R©÷=0.417  AUC=0.847 ====
+2026-04-27 16:28:52,713  INFO  s2-f0 ep 00  val_mae=0.977  best=0.977
+2026-04-27 16:29:27,474  INFO  s2-f0 ep 10  val_mae=0.923  best=0.723
+2026-04-27 16:30:02,622  INFO  s2-f0 ep 20  val_mae=1.139  best=0.723
+2026-04-27 16:30:35,642  INFO  s2-f0 ep 30  val_mae=0.907  best=0.723
+2026-04-27 16:31:10,330  INFO  s2-f0 ep 40  val_mae=0.872  best=0.723
+2026-04-27 16:34:29,477  INFO  s2-f0 ep 50  val_mae=0.971  best=0.723
+2026-04-27 16:38:16,458  INFO  s2-f0 ep 59  val_mae=0.967  best=0.723
+2026-04-27 16:38:35,935  INFO  s2-f0  MAE=1.395  R©÷=0.360  AUC=0.804
+2026-04-27 16:38:39,680  INFO  s2-f1 ep 00  val_mae=1.728  best=1.728
+2026-04-27 16:39:09,281  INFO  s2-f1 ep 10  val_mae=1.489  best=1.044
+2026-04-27 16:39:39,082  INFO  s2-f1 ep 20  val_mae=1.184  best=1.044
+2026-04-27 16:40:07,655  INFO  s2-f1 ep 30  val_mae=1.230  best=1.034
+2026-04-27 16:40:36,862  INFO  s2-f1 ep 40  val_mae=1.261  best=1.034
+2026-04-27 16:41:05,930  INFO  s2-f1 ep 50  val_mae=1.229  best=1.034
+2026-04-27 16:41:31,852  INFO  s2-f1 ep 59  val_mae=1.235  best=1.034
+2026-04-27 16:41:49,207  INFO  s2-f1  MAE=1.511  R©÷=0.380  AUC=0.748
+2026-04-27 16:41:59,472  INFO  s2-f2 ep 00  val_mae=1.882  best=1.882
+2026-04-27 18:10:28,095  INFO  ksec frac=0.4: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_ksec_f0.4.json
+2026-04-27 18:10:28,096  INFO  lgbm frac=0.4: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_lgbm_f0.4.json
+2026-04-27 18:10:28,096  INFO  ksec frac=0.6: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_ksec_f0.6.json
+2026-04-27 18:10:28,096  INFO  lgbm frac=0.6: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_lgbm_f0.6.json
+2026-04-27 18:10:28,096  INFO  Running k-SEC + DBVF at fraction 0.8 (3 seeds)...
+2026-04-27 18:10:34,508  INFO  device=cuda  epochs=60  seeds=3  hetero=False  magpie=True  lattice=True
+2026-04-27 18:10:34,538  INFO  Eligible: 281  (log_sigma>-15.0 filter dropped 4, geometric-valid filter dropped 0)
+2026-04-27 18:10:34,679  INFO  loaded MP encoder (67 tensors: embed+blocks)  val_score=0.465  missing=33 unexpected=0
+2026-04-27 18:10:42,933  INFO  s0-f0 ep 00  val_mae=1.775  best=1.775
+2026-04-27 18:11:14,644  INFO  s0-f0 ep 10  val_mae=0.997  best=0.810
+2026-04-27 18:11:52,445  INFO  s0-f0 ep 20  val_mae=0.732  best=0.732
+2026-04-27 18:12:24,057  INFO  s0-f0 ep 30  val_mae=0.767  best=0.688
+2026-04-27 18:12:53,856  INFO  s0-f0 ep 40  val_mae=0.784  best=0.642
+2026-04-27 18:13:23,978  INFO  s0-f0 ep 50  val_mae=0.744  best=0.642
+2026-04-27 18:13:50,229  INFO  s0-f0 ep 59  val_mae=0.717  best=0.642
+2026-04-27 18:13:55,387  INFO  s0-f0  MAE=1.240  R©÷=0.426  AUC=0.796
+2026-04-27 18:13:58,965  INFO  s0-f1 ep 00  val_mae=2.018  best=2.018
+2026-04-27 18:14:29,190  INFO  s0-f1 ep 10  val_mae=1.544  best=1.309
+2026-04-27 18:14:59,412  INFO  s0-f1 ep 20  val_mae=1.179  best=1.135
+2026-04-27 18:15:33,112  INFO  s0-f1 ep 30  val_mae=1.012  best=1.012
+2026-04-27 18:16:05,520  INFO  s0-f1 ep 40  val_mae=0.956  best=0.956
+2026-04-27 18:16:37,935  INFO  s0-f1 ep 50  val_mae=1.004  best=0.956
+2026-04-27 18:17:13,117  INFO  s0-f1 ep 59  val_mae=0.998  best=0.956
+2026-04-27 18:17:18,908  INFO  s0-f1  MAE=1.222  R©÷=0.590  AUC=0.876
+2026-04-27 18:17:23,421  INFO  s0-f2 ep 00  val_mae=1.787  best=1.787
+2026-04-27 18:17:55,461  INFO  s0-f2 ep 10  val_mae=1.571  best=1.149
+2026-04-27 18:18:26,931  INFO  s0-f2 ep 20  val_mae=1.192  best=0.837
+2026-04-27 18:18:59,350  INFO  s0-f2 ep 30  val_mae=1.242  best=0.837
+2026-04-27 18:19:31,684  INFO  s0-f2 ep 40  val_mae=1.127  best=0.837
+2026-04-27 18:20:05,227  INFO  s0-f2 ep 50  val_mae=1.162  best=0.837
+2026-04-27 18:20:33,885  INFO  s0-f2 ep 59  val_mae=1.166  best=0.837
+2026-04-27 18:20:39,592  INFO  s0-f2  MAE=1.358  R©÷=0.466  AUC=0.822
+2026-04-27 18:20:44,032  INFO  s0-f3 ep 00  val_mae=2.317  best=2.317
+2026-04-27 18:21:18,716  INFO  s0-f3 ep 10  val_mae=1.725  best=1.478
+2026-04-27 18:21:54,388  INFO  s0-f3 ep 20  val_mae=1.533  best=1.351
+2026-04-27 18:22:29,548  INFO  s0-f3 ep 30  val_mae=1.457  best=1.351
+2026-04-27 18:23:05,664  INFO  s0-f3 ep 40  val_mae=1.532  best=1.351
+2026-04-27 18:23:40,713  INFO  s0-f3 ep 50  val_mae=1.492  best=1.351
+2026-04-27 18:24:13,629  INFO  s0-f3 ep 59  val_mae=1.458  best=1.351
+2026-04-27 18:24:20,034  INFO  s0-f3  MAE=1.406  R©÷=0.505  AUC=0.922
+2026-04-27 18:24:26,551  INFO  s0-f4 ep 00  val_mae=1.712  best=1.712
+2026-04-27 18:25:11,882  INFO  s0-f4 ep 10  val_mae=1.542  best=1.367
+2026-04-27 18:25:58,943  INFO  s0-f4 ep 20  val_mae=1.576  best=1.367
+2026-04-27 18:26:48,517  INFO  s0-f4 ep 30  val_mae=1.659  best=1.345
+2026-04-27 18:27:34,969  INFO  s0-f4 ep 40  val_mae=1.646  best=1.345
+2026-04-27 18:28:20,253  INFO  s0-f4 ep 50  val_mae=1.669  best=1.345
+2026-04-27 18:29:04,310  INFO  s0-f4 ep 59  val_mae=1.625  best=1.345
+2026-04-27 18:29:06,295  INFO  s0-f4  MAE=1.247  R©÷=0.327  AUC=0.888
+2026-04-27 18:29:06,387  INFO  ==== seed 0  MAE=1.295¡¾0.073  R©÷=0.463  AUC=0.861 ====
+2026-04-27 18:29:09,845  INFO  s1-f0 ep 00  val_mae=1.515  best=1.515
+2026-04-27 18:29:43,788  INFO  s1-f0 ep 10  val_mae=1.038  best=1.038
+2026-04-27 18:30:17,873  INFO  s1-f0 ep 20  val_mae=1.251  best=1.038
+2026-04-27 18:30:52,368  INFO  s1-f0 ep 30  val_mae=1.045  best=0.885
+2026-04-27 18:31:29,217  INFO  s1-f0 ep 40  val_mae=1.313  best=0.885
+2026-04-27 18:32:05,094  INFO  s1-f0 ep 50  val_mae=1.192  best=0.885
+2026-04-27 18:32:34,087  INFO  s1-f0 ep 59  val_mae=1.190  best=0.885
+2026-04-27 18:32:41,999  INFO  s1-f0  MAE=1.236  R©÷=0.421  AUC=0.810
+2026-04-27 18:32:46,109  INFO  s1-f1 ep 00  val_mae=1.847  best=1.847
+2026-04-27 18:33:17,617  INFO  s1-f1 ep 10  val_mae=1.627  best=1.243
+2026-04-27 18:33:47,823  INFO  s1-f1 ep 20  val_mae=1.161  best=1.150
+2026-04-27 18:34:18,798  INFO  s1-f1 ep 30  val_mae=1.346  best=1.150
+2026-04-27 18:34:49,144  INFO  s1-f1 ep 40  val_mae=1.335  best=1.150
+2026-04-27 18:35:19,022  INFO  s1-f1 ep 50  val_mae=1.205  best=1.150
+2026-04-27 18:35:45,493  INFO  s1-f1 ep 59  val_mae=1.216  best=1.150
+2026-04-27 18:35:51,047  INFO  s1-f1  MAE=1.357  R©÷=0.388  AUC=0.791
+2026-04-27 18:35:54,920  INFO  s1-f2 ep 00  val_mae=1.586  best=1.586
+2026-04-27 18:36:24,080  INFO  s1-f2 ep 10  val_mae=1.066  best=0.929
+2026-04-27 18:36:52,881  INFO  s1-f2 ep 20  val_mae=1.078  best=0.884
+2026-04-27 18:37:23,041  INFO  s1-f2 ep 30  val_mae=1.174  best=0.884
+2026-04-27 18:37:54,067  INFO  s1-f2 ep 40  val_mae=1.067  best=0.884
+2026-04-27 18:38:24,394  INFO  s1-f2 ep 50  val_mae=1.156  best=0.884
+2026-04-27 18:38:51,343  INFO  s1-f2 ep 59  val_mae=1.131  best=0.884
+2026-04-27 18:38:59,283  INFO  s1-f2  MAE=1.366  R©÷=0.435  AUC=0.847
+2026-04-27 18:39:03,769  INFO  s1-f3 ep 00  val_mae=1.725  best=1.725
+2026-04-27 18:39:40,246  INFO  s1-f3 ep 10  val_mae=1.569  best=1.271
+2026-04-27 18:40:15,906  INFO  s1-f3 ep 20  val_mae=1.245  best=1.245
+2026-04-27 18:40:51,249  INFO  s1-f3 ep 30  val_mae=1.530  best=1.245
+2026-04-27 18:41:26,135  INFO  s1-f3 ep 40  val_mae=1.490  best=1.245
+2026-04-27 18:42:01,736  INFO  s1-f3 ep 50  val_mae=1.384  best=1.245
+2026-04-27 18:42:33,160  INFO  s1-f3 ep 59  val_mae=1.395  best=1.245
+2026-04-27 18:42:38,975  INFO  s1-f3  MAE=1.048  R©÷=0.562  AUC=0.903
+2026-04-27 18:42:43,279  INFO  s1-f4 ep 00  val_mae=1.487  best=1.487
+2026-04-27 18:43:16,893  INFO  s1-f4 ep 10  val_mae=1.411  best=1.008
+2026-04-27 18:43:50,191  INFO  s1-f4 ep 20  val_mae=1.008  best=1.008
+2026-04-27 18:44:23,454  INFO  s1-f4 ep 30  val_mae=0.940  best=0.938
+2026-04-27 18:45:03,281  INFO  s1-f4 ep 40  val_mae=0.932  best=0.932
+2026-04-27 18:47:50,309  INFO  s1-f4 ep 50  val_mae=1.056  best=0.932
+2026-04-27 18:50:20,894  INFO  s1-f4 ep 59  val_mae=1.030  best=0.932
+2026-04-27 18:50:24,246  INFO  s1-f4  MAE=1.191  R©÷=0.555  AUC=0.825
+2026-04-27 18:50:24,986  INFO  ==== seed 1  MAE=1.240¡¾0.118  R©÷=0.472  AUC=0.835 ====
+2026-04-27 18:50:28,591  INFO  s2-f0 ep 00  val_mae=0.877  best=0.877
+2026-04-27 18:51:01,026  INFO  s2-f0 ep 10  val_mae=1.018  best=0.789
+2026-04-27 18:51:33,847  INFO  s2-f0 ep 20  val_mae=1.072  best=0.763
+2026-04-27 18:52:05,163  INFO  s2-f0 ep 30  val_mae=1.083  best=0.763
+2026-04-27 18:52:37,206  INFO  s2-f0 ep 40  val_mae=0.881  best=0.763
+2026-04-27 18:53:08,064  INFO  s2-f0 ep 50  val_mae=0.960  best=0.763
+2026-04-27 18:53:40,440  INFO  s2-f0 ep 59  val_mae=0.963  best=0.763
+2026-04-27 18:53:46,574  INFO  s2-f0  MAE=1.348  R©÷=0.415  AUC=0.799
+2026-04-27 18:53:50,840  INFO  s2-f1 ep 00  val_mae=1.675  best=1.675
+2026-04-27 18:54:20,917  INFO  s2-f1 ep 10  val_mae=1.435  best=1.435
+2026-04-27 18:54:50,904  INFO  s2-f1 ep 20  val_mae=1.340  best=1.142
+2026-04-27 18:55:22,084  INFO  s2-f1 ep 30  val_mae=1.301  best=1.135
+2026-04-27 18:55:53,831  INFO  s2-f1 ep 40  val_mae=1.197  best=1.135
+2026-04-27 18:56:25,738  INFO  s2-f1 ep 50  val_mae=1.152  best=1.119
+2026-04-27 18:56:55,270  INFO  s2-f1 ep 59  val_mae=1.186  best=1.119
+2026-04-27 18:57:02,615  INFO  s2-f1  MAE=1.074  R©÷=0.581  AUC=0.870
+2026-04-27 18:57:06,814  INFO  s2-f2 ep 00  val_mae=1.801  best=1.801
+2026-04-27 18:57:36,777  INFO  s2-f2 ep 10  val_mae=1.053  best=0.911
+2026-04-27 18:58:06,085  INFO  s2-f2 ep 20  val_mae=0.948  best=0.847
+2026-04-27 18:58:34,643  INFO  s2-f2 ep 30  val_mae=0.873  best=0.735
+2026-04-27 18:59:03,851  INFO  s2-f2 ep 40  val_mae=0.878  best=0.735
+2026-04-27 18:59:34,276  INFO  s2-f2 ep 50  val_mae=0.955  best=0.735
+2026-04-27 19:00:01,431  INFO  s2-f2 ep 59  val_mae=0.936  best=0.735
+2026-04-27 19:00:06,478  INFO  s2-f2  MAE=1.238  R©÷=0.459  AUC=0.845
+2026-04-27 19:00:11,923  INFO  s2-f3 ep 00  val_mae=1.151  best=1.151
+2026-04-27 19:00:59,306  INFO  s2-f3 ep 10  val_mae=1.251  best=0.907
+2026-04-27 19:01:48,235  INFO  s2-f3 ep 20  val_mae=1.235  best=0.907
+2026-04-27 19:02:40,703  INFO  s2-f3 ep 30  val_mae=0.886  best=0.886
+2026-04-27 19:03:55,705  INFO  s2-f3 ep 40  val_mae=1.153  best=0.886
+2026-04-27 19:06:27,234  INFO  s2-f3 ep 50  val_mae=1.218  best=0.886
+2026-04-27 19:06:57,419  INFO  s2-f3 ep 59  val_mae=1.225  best=0.886
+2026-04-27 19:06:59,136  INFO  s2-f3  MAE=1.301  R©÷=0.452  AUC=0.863
+2026-04-27 19:07:02,968  INFO  s2-f4 ep 00  val_mae=1.551  best=1.551
+2026-04-27 19:07:36,412  INFO  s2-f4 ep 10  val_mae=1.752  best=1.319
+2026-04-27 19:08:09,803  INFO  s2-f4 ep 20  val_mae=1.516  best=1.319
+2026-04-27 19:12:46,285  INFO  s2-f4 ep 30  val_mae=1.460  best=1.319
+2026-04-27 19:18:19,174  INFO  s2-f4 ep 40  val_mae=1.497  best=1.319
+2026-04-27 19:23:39,057  INFO  s2-f4 ep 50  val_mae=1.487  best=1.319
+2026-04-27 19:28:47,328  INFO  s2-f4 ep 59  val_mae=1.487  best=1.319
+2026-04-27 19:28:51,772  INFO  s2-f4  MAE=1.355  R©÷=0.420  AUC=0.877
+2026-04-27 19:28:52,700  INFO  ==== seed 2  MAE=1.263¡¾0.103  R©÷=0.466  AUC=0.851 ====
+C:\Users\sunwo\Desktop\battery\scripts\08_train_hybrid.py:458: RuntimeWarning: Mean of empty slice
+  ens_pred = np.nanmean(stacked, axis=0)
+2026-04-27 19:28:52,742  INFO  PER-SEED MAE=1.266¡¾0.023   ENSEMBLE MAE=1.154  R©÷=0.569  AUC=0.859
+2026-04-27 19:28:53,258  INFO  ksec frac=0.8 done in 78.4 min
+2026-04-27 19:28:53,264  INFO  lgbm frac=0.8: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_lgbm_f0.8.json
+2026-04-27 19:28:53,265  INFO  lgbm frac=1.0: cached at C:\Users\sunwo\Desktop\battery\results\learning_curve_lgbm_f1.0.json
+Traceback (most recent call last):
+  File "C:\Users\sunwo\Desktop\battery\scripts\29_learning_curve.py", line 280, in <module>
+    main()
+  File "C:\Users\sunwo\Desktop\battery\scripts\29_learning_curve.py", line 260, in main
+    ksec_pts.append(parse_ksec_run(json.load(f)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sunwo\Desktop\battery\scripts\29_learning_curve.py", line 203, in parse_ksec_run
+    mae_ensemble=run_json["seed_ensemble"]["mae"],
+                 ~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'seed_ensemble'

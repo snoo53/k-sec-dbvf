@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: >-
+  Cubic-Equivariant k-Space Convolution and a Differentiable
+  Bond-Valence Field for Ionic-Conductivity Prediction in
+  Solid-State Electrolytes
+message: >-
+  If you use this code or build on the architecture, please cite the manuscript.
+type: software
+authors:
+  - given-names: Sunwoo
+    family-names: Lee
+    orcid: 'https://orcid.org/0009-0004-9159-367X'
+    email: lee.11539@buckeyemail.osu.edu
+    affiliation: Independent researcher, South Korea
+repository-code: 'https://github.com/snoo53/k-sec-dbvf'
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Sunwoo
+      family-names: Lee
+      orcid: 'https://orcid.org/0009-0004-9159-367X'
+  title: >-
+    Cubic-Equivariant k-Space Convolution and a Differentiable
+    Bond-Valence Field for Ionic-Conductivity Prediction in
+    Solid-State Electrolytes
+  journal: Journal of Materials Science & Technology
+  year: 2026
+  notes: >-
+    Submitted; manuscript ID J-MST-D-26-03318. Preprint posted to ChemRxiv.
+keywords:
+  - solid electrolytes
+  - lithium-ion conductivity
+  - machine learning
+  - bond-valence model
+  - equivariant neural networks
+  - OBELiX benchmark
+  - materials informatics

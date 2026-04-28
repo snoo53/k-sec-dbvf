@@ -1,0 +1,85 @@
+# IonPath-Net base configuration.
+# Per-model overrides live in configs/<model>.yaml and are merged over this file.
+
+project_name: ionpath
+seed: 42
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  splits: data/splits
+  cache: data/cache
+  checkpoints: checkpoints
+  results: results
+
+data:
+  experimental:
+    - liverpool        # Hargreaves 2023
+    - obelix           # arXiv 2025
+  simulation:
+    - litraj           # optional; very large
+  mobile_ions: [Li, Na, Mg, Zn, K, Ca]
+  target: log_sigma_298            # log10(S/cm)
+  aux_targets: [E_a_eV, log_sigma_0]
+  temperature_column: T_K
+  room_temperature_K: 298.15
+  log_sigma_floor: -12.0
+  log_sigma_ceiling: -1.0
+
+splits:
+  method: stratified_kfold
+  n_folds: 5
+  stratify_bins: 10
+  ood_families:                     # each held out in turn
+    - garnet
+    - nasicon
+    - argyrodite
+    - perovskite
+    - anti_perovskite
+    - lisicon
+  cross_ion:
+    train_ion: Li
+    test_ions: [Na, Mg]
+
+featurization:
+  composition:
+    use_magpie: true
+    element_embedding_dim: 64
+  structure:
+    cutoff_angstrom: 5.0
+    max_neighbors: 16
+    bvse:
+      grid_spacing: 0.2
+      ion_radius_tol: 0.9           # accept cavities ≥ 0.9 × r_ion
+    ion_graph:
+      hop_cutoff: 4.0               # Å
+      min_site_volume: 5.0          # Å^3
+
+training:
+  batch_size: 32
+  epochs: 100
+  optimizer: adamw
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  scheduler: cosine
+  warmup_epochs: 5
+  grad_clip: 1.0
+  early_stopping:
+    patience: 15
+    metric: val_mae
+  fidelity_weights:
+    experimental: 1.0
+    aimd: 0.3
+    dft_proxy: 0.1
+  loss_weights:
+    log_sigma: 1.0
+    E_a: 0.5
+    log_sigma_0: 0.3
+    arrhenius_consistency: 0.5
+    evidential_regularizer: 0.1
+    calibration: 0.05
+
+evaluation:
+  fast_conductor_threshold_log_sigma: -4.0   # σ > 1e-4 S/cm
+  top_k_for_discovery: 20
+  calibration_bins: 15

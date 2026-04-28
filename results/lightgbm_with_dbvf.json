@@ -1,0 +1,17 @@
+{
+  "LightGBM + Magpie + lattice + geometric (no DBVF)": {
+    "mae": 0.9242990016937256,
+    "r2": 0.6716462861489223,
+    "auc": 0.8969658659924147
+  },
+  "LightGBM + ALL + DBVF (8 features from our trained module)": {
+    "mae": 0.933322012424469,
+    "r2": 0.6630990472695792,
+    "auc": 0.8959650231774126
+  },
+  "k-SEC Phase B1 (DBVF) standalone (5-seed ensemble)": {
+    "mae": 1.0472427606582642,
+    "r2": 0.6023100145618654,
+    "auc": 0.8691529709228825
+  }
+}

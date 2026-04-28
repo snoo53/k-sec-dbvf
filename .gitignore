@@ -1,0 +1,90 @@
+# Secrets / credentials
+.env
+.env.*
+*.key
+credentials.json
+secrets/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local datasets and caches (large; users fetch via scripts)
+data/cache/
+data/raw/
+data/preprocessed/
+*.parquet
+*.jsonl.gz
+
+# Heavyweight local artifacts not needed for reproduction
+checkpoints/
+results/_smoke_*
+*.log
+
+# Exploration-phase model checkpoints (only the Phase B1 headline weights
+# are committed; everything else is reproducible from scripts/)
+results/ksec_ckpt*.pt
+results/ksec_phaseA*.pt
+results/ksec_phaseA2*.pt
+results/ksec_phaseA4*.pt
+results/ksec_phaseB2*.pt
+results/ksec_phaseB3*.pt
+results/ksec_v2*.pt
+results/ksec_hybrid*.pt
+results/ksec_mega*.pt
+results/ksec_for_ckpt*.pt
+results/ksec_final*.pt
+results/mp_mega_encoder.pt
+data/processed/
+
+# Exploration OOF arrays (only Phase B1 OOF is committed)
+results/ksec_ckpt_oof*.npz
+results/ksec_phaseA*_oof*.npz
+results/ksec_phaseA2_oof*.npz
+results/ksec_phaseA4_oof*.npz
+results/ksec_phaseB2_oof*.npz
+results/ksec_phaseB3_oof*.npz
+results/ksec_hybrid_lattice_oof*.npz
+results/ksec_mega_oof*.npz
+results/ksec_final_oof*.npz
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Build / scratch
+*.bak
+*.bak2
+*.tmp
+dist/
+build/
+node_modules/
+
+# Claude Code internal state (not part of the project)
+.claude/
+
+# Private (college applications and personal correspondence)
+applications/stanford_additional_info.txt
+applications/jhu_research_abstract.docx
+applications/jhu_research_abstract.md
+applications/jhu_research_abstract.pdf
+applications/build_jhu_docx.py
+applications/build_jhu_pdf.py
+applications/_chemrxiv_master.md
+applications/_anon_manuscript.md
+applications/_highlights.md
+
+# Editor-only submission artifacts (not for public release)
+applications/jmst_submission/CoverLetter.pdf
+applications/jmst_submission/CoverLetter.docx
+applications/jmst_submission/DeclarationOfInterests.docx
