@@ -9,7 +9,7 @@ Code, data and trained-model artifacts for:
 | Resource | Status |
 |---|---|
 | Manuscript submission | *Journal of Materials Science & Technology* (Elsevier), submitted April 2026, manuscript ID **J-MST-D-26-03318** |
-| Preprint | ChemRxiv (DOI to be added once posted) |
+| Preprint | ChemRxiv (https://doi.org/10.26434/chemrxiv.15002591/v1) |
 | Code license | MIT (this repository) |
 | Manuscript license | CC BY 4.0 |
 
