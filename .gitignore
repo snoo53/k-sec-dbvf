@@ -78,11 +78,14 @@ applications/stanford_additional_info.txt
 applications/jhu_research_abstract.docx
 applications/jhu_research_abstract.md
 applications/jhu_research_abstract.pdf
+applications/jhu_research_template.docx
 applications/build_jhu_docx.py
 applications/build_jhu_pdf.py
+applications/build_jhu_template.py
 applications/_chemrxiv_master.md
 applications/_anon_manuscript.md
 applications/_highlights.md
+applications/_tech_reference_source.md
 
 # Editor-only submission artifacts (not for public release)
 applications/jmst_submission/CoverLetter.pdf
